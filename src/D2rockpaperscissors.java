@@ -71,6 +71,7 @@ public class D2rockpaperscissors {
                     }
                 }
             }
+            sc.close();
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -120,6 +121,7 @@ public class D2rockpaperscissors {
                 }
             }
             fw.close();
+            sc.close();
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {

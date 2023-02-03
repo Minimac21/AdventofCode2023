@@ -28,6 +28,7 @@ public class D1caloriecounting {
                 elfs.add(x);
                 x = 0;
             }
+            sc.close();
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

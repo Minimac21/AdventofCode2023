@@ -67,6 +67,7 @@ public class D3sackstuff {
                 System.out.println(findRepeat(findRepeat(a,b),findRepeat(b,c)));
                 prioritySum+=getPriority(findRepeat(findRepeat(a,b),findRepeat(b,c)).charAt(0));
             }
+            sc.close();
         } catch(FileNotFoundException e) {
             throw new RuntimeException(e);
         }
